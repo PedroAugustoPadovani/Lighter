@@ -1,0 +1,73 @@
+img{
+    width: 450px;
+    height: 450px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 30px 20px rgb(26, 10, 83);
+}
+.div1{
+    background: rgb(2, 59, 138);
+    width: 350px;
+    height: 450px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    box-shadow: 30px 20px  rgb(26, 10, 83);
+}
+.back{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*margin: 0 auto;*/
+    background-color: rgb(14, 3, 65);
+}
+.login{
+    
+    font: bolder 25pt Arial;
+    margin-left: 35%;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    
+
+}
+.email{
+    width: auto;
+    height: 30px;
+    margin-left: 25%;
+    border-radius: 10px;
+    border-width: 2.5px;
+    background-color: rgb(121, 183, 255);
+    color:#072f52;
+    margin-bottom: 20px;
+    border: 1px rgb(2, 59, 138);
+}
+.email::placeholder{
+    color: #072f52;
+}
+.senha{
+    width: auto;
+    height: 30px;
+    margin-left: 25%;
+    border-radius: 10px;
+    border-width: 2.5px;
+    background-color: rgb(121, 183, 255);
+    color:#072f52;
+    border: 1px rgb(2, 59, 138);
+}
+.senha::placeholder{
+    color: #072f52;
+}
+.botao{
+    width: 80px;
+    height: 30px;
+    margin-left: 40%;
+    border-radius: 10px;
+    border-width: 2.5px;
+    background-color: rgb(121, 183, 255);
+    color:#072f52;
+    margin-top: 10px;
+    border: 1px rgb(2, 59, 138);
+}   

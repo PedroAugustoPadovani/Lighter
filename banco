@@ -1,0 +1,22 @@
+drop DATABASE lighter;
+
+CREATE DATABASE lighter;
+
+use  lighter ;
+
+CREATE TABLE planos(
+    id_plano INT PRIMARY KEY NOT NULL,
+    tipo_plano ENUM('Premium' , 'Standard') NOT NULL
+);
+
+CREATE TABLE terapeutas(
+    id_terapeuta INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nome_terapeuta VARCHAR(225) NOT NULL,
+    email_terapeuta VARCHAR(225) NOT NULL,
+    senha_terapeuta VARCHAR(225) NOT NULL,
+    id_plano INT,
+    FOREIGN KEY	(id_plano) REFERENCES planos (id_plano)
+);
+
+INSERT INTO planos (id_plano, tipo_plano) VALUES (1, 'Standard');
+INSERT INTO planos (id_plano, tipo_plano) VALUES (2, 'Premium');
