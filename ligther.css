@@ -13,7 +13,9 @@
 }
 .site-name{
     display: inline;
-    margin-left:70px; 
+    margin-left:70px;
+    font: normal 30px Lobster;
+    color: #5fc4ff; 
 }
 .pages{
     display: inline;
